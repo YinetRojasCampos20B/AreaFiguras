@@ -8,6 +8,12 @@ public class Circulo extends Figura{
 
     private double radio;
 
+    // Método constructor de la clase concreta Círculo
+
+    public Circulo(double radio) {
+        this.radio = radio;
+    }
+
     // Implementación en Circulo de los métodos calcularArea y calcularPerimetro de la clase abstracta Figura
 
     public double calcularArea() {
